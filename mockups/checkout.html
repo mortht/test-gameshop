@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout · mockup</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><nav class="container"><a href="catalog.html">Card &amp; Board Game Shop</a><a href="cart.html">Cart (3)</a></nav></header><main class="container"><h1>Checkout</h1><div class="summary"><ul><li><span>Catan × 1</span><span>€44.99</span></li><li><span>Uno × 2</span><span>€15.00</span></li></ul><p class="total">Total: €59.99</p></div><form action="confirmation.html"><p role="alert">Some games are no longer available in the quantity you ordered. Nothing was charged.</p><div class="stack"><label for="n">Name</label><input id="n" name="name" autocomplete="name" aria-describedby="n-err"><p id="n-err" role="alert">Name is required.</p></div><div class="stack"><label for="e">Email</label><input id="e" name="email" type="email" value="not-an-email" aria-describedby="e-err"><p id="e-err" role="alert">Enter a valid email address.</p></div><div class="stack"><label for="a">Shipping address</label><textarea id="a" name="address" aria-describedby="a-err"></textarea><p id="a-err" role="alert">Shipping address is required.</p></div><button type="submit">Pay now</button></form><section><h2>Empty cart state</h2><p>Your cart is empty, so there is nothing to check out.</p></section></main>
+</body>
+</html>
